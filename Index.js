@@ -8,6 +8,7 @@
 
 <script>
 function myFunction() {
+    alert('demo');    // This line is added in "DEV" Branch.
     document.getElementById("demo").innerHTML =
     "Cookies associated with this document: " + document.cookie;
 }
